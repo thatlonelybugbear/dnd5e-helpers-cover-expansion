@@ -1,3 +1,10 @@
 {
-    "MODULE.hello": "hello"
+    "0coverTokenSizesName": "Token Sizes to not provide cover",
+    "3/4CoverTokenSizes": "Token Sizes to provide 3/4 cover",
+    "noDeadTokenSizes": "Token Sizes to not provide cover when at 0hp",
+    "3/4DeadTokenSizes": "Token Sizes to provide 3/4 cover when at 0hp",
+    "fullDeadTokenSizes": "Token Sizes to provide full cover when at 0hp",
+
+    "CoverSizeHint": "Options: tiny, sm, med, lrg, huge, grg. Separate with ,"
+    
 }

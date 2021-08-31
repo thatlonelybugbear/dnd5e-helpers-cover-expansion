@@ -1,7 +1,7 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
+  "name": "dnd5e-helpers-cover-expansion",
+  "title": "Dnd5e Helpers Cover Expansion",
+  "description": "Auto sets token cover value based on their actors size. Changes cover level based on death/unconsciousness as well",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -9,25 +9,20 @@
   "compatibleCoreVersion": "0.8.8",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Kandashi",
+      "url": "https://github.com/kandashi",
+      "discord": "Kandashi (He/Him)#6698"
     }
   ],
   "dependencies": [
-
-  ],
-  "conflicts": [
-    
+    {
+      "name" : "dnd5e-helpers",
+      "url" : "https://raw.githubusercontent.com/trioderegion/dnd5e-helpers/Kek-Rewrite/module.zip"
+    }
   ],
   "esmodules": [
-    "/scripts/module.js"
-  ],
-  "scripts": [
-    "/scripts/lib/lib.js"
-  ],
-  "styles": [
-    "/styles/module.css"
+    "/scripts/module.js",
+    "/scripts/modules/tokenCover.js"
   ],
   "languages": [
     {
@@ -38,11 +33,5 @@
   ],
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+  "download": "This is auto replaced"
 }
