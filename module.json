@@ -25,7 +25,6 @@
     "/scripts/modules/tokenCover.js"
   ],
   "languages": [
-    [
       {
         "lang": "en",
         "name": "English",
@@ -81,8 +80,7 @@
         "name": "Español",
         "path": "languages/es.json"
       }
-    ]
-  ],
+    ],
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
   "download": "This is auto replaced"
