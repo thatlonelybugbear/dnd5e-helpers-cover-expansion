@@ -13,7 +13,7 @@ Hooks.on("init", () => {
   });
 
   game.settings.register(MODULE, "3/4CoverTokenSizes", {
-    name: localize("3/4coverTokenSizesName"),
+    name: localize("3/4coverTokenSizes"),
     hint: localize("CoverSizeHint"),
     scope: "world",
     config: true,
@@ -24,7 +24,7 @@ Hooks.on("init", () => {
   });
 
   game.settings.register(MODULE, "noDeadTokenSizes", {
-    name: localize("noDeadTokenSizesName"),
+    name: localize("noDeadTokenSizes"),
     hint: localize("CoverSizeHint"),
     scope: "world",
     config: true,
@@ -34,7 +34,7 @@ Hooks.on("init", () => {
 
   });
   game.settings.register(MODULE, "halfDeadTokenSizes", {
-    name: localize("halfDeadTokenSizesName"),
+    name: localize("halfDeadTokenSizes"),
     hint: localize("CoverSizeHint"),
     scope: "world",
     config: true,
@@ -45,7 +45,7 @@ Hooks.on("init", () => {
   });
 
   game.settings.register(MODULE, "3/4DeadTokenSizes", {
-    name: localize("3/4DeadTokenSizesName"),
+    name: localize("3/4DeadTokenSizes"),
     hint: localize("CoverSizeHint"),
     scope: "world",
     config: true,
@@ -56,7 +56,7 @@ Hooks.on("init", () => {
   });
 
   game.settings.register(MODULE, "fullDeadTokenSizes", {
-    name: localize("fullDeadTokenSizesName"),
+    name: localize("fullDeadTokenSizes"),
     hint: localize("CoverSizeHint"),
     scope: "world",
     config: true,
