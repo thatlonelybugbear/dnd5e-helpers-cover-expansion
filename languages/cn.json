@@ -1,12 +1,10 @@
 {
-  "KFC.earthquake": "地震",
-  "KFC.HeartBeat": "心跳",
-  "KFC.Spin": "旋转",
-  "KFC.Sepia": "棕褐色",
-  "KFC.Negative": "负",
-  "KFC.Blur": "模糊",
-  "KFC.Fade": "淡出",
-  "KFC.Drugged": "药物",
-  "KFC.PlayerChoice": "玩家选择",
-  "KFC.Launch": "启动"
+  "0coverTokenSizesName": "Token Sizes to not provide cover",
+  "3/4CoverTokenSizes": "Token Sizes to provide 3/4 cover",
+  "noDeadTokenSizes": "Token Sizes to not provide cover when at 0hp",
+  "3/4DeadTokenSizes": "Token Sizes to provide 3/4 cover when at 0hp",
+  "fullDeadTokenSizes": "Token Sizes to provide full cover when at 0hp",
+
+  "CoverSizeHint": "Options: tiny, sm, med, lrg, huge, grg. Separate with ,"
+  
 }

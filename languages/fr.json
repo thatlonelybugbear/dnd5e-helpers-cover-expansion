@@ -1,12 +1,8 @@
 {
-  "KFC.earthquake": "Séisme",
-  "KFC.HeartBeat": "Battement du cœur",
-  "KFC.Spin": "Spin",
-  "KFC.Sepia": "Sépia",
-  "KFC.Negative": "Négatif",
-  "KFC.Blur": "Flou",
-  "KFC.Fade": "Fondu",
-  "KFC.Drugged": "Drogué",
-  "KFC.PlayerChoice": "Choix du joueur",
-  "KFC.Launch": "Lancement"
+  "0coverTokenSizesName": "Tailles des jetons pour ne pas fournir de couverture",
+  "3/4CoverTokenSizes": "Tailles de jetons pour fournir une couverture 3/4",
+  "noDeadTokenSizes": "Tailles des jetons pour ne pas fournir de couverture à 0 PV",
+  "3/4DeadTokenSizes": "Tailles de jetons pour fournir 3/4 de couverture à 0 PV",
+  "fullDeadTokenSizes": "Tailles de jetons pour fournir une couverture complète à 0 PV",
+  "CoverSizeHint": "Options : tiny, sm, med, lrg, huge, grg. Séparez par ,"
 }
