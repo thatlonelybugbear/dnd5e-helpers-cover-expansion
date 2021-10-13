@@ -1,10 +1,8 @@
 {
-    "0coverTokenSizesName": "엄폐를 제공하지 않는 토큰 크기",
-    "3/4CoverTokenSizes": "3/4 엄폐를 제공하는 토큰 크기",
-    "noDeadTokenSizes": "0 hp일 때 엄폐를 제공하지 않는 토큰 크기.",
-    "3/4DeadTokenSizes": "0 hp일 때 3/4 엄폐를 제공하는 토큰 크기.",
-    "fullDeadTokenSizes": "0 hp일 때 완전 엄폐를 제공하는 토큰 크기.",
-
-    "CoverSizeHint": "옵션: 초소형, 소형, 중형, 대형, 거대형, 초대형. ','로 구분한다."
-    
+  "0coverTokenSizesName": "엄폐를 제공하지 않는 토큰 크기",
+  "3/4CoverTokenSizes": "3/4 엄폐를 제공하는 토큰 크기",
+  "noDeadTokenSizes": "0 hp일 때 엄폐를 제공하지 않는 토큰 크기.",
+  "3/4DeadTokenSizes": "0 hp일 때 3/4 엄폐를 제공하는 토큰 크기.",
+  "fullDeadTokenSizes": "0 hp일 때 완전 엄폐를 제공하는 토큰 크기.",
+  "CoverSizeHint": "옵션: 초소형, 소형, 중형, 대형, 거대형, 초대형. ','로 구분한다."
 }

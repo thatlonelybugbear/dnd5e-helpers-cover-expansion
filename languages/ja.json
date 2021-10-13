@@ -1,12 +1,10 @@
 {
-  "KFC.earthquake": "地震",
-  "KFC.HeartBeat": "ハートビート",
-  "KFC.Spin": "スピン",
-  "KFC.Sepia": "セピア",
-  "KFC.Negative": "ネガティブ",
-  "KFC.Blur": "ぼかし",
-  "KFC.Fade": "フェード",
-  "KFC.Drugged": "薬漬け",
-  "KFC.PlayerChoice": "プレーヤーの選択",
-  "KFC.Launch": "起動する"
+  "0coverTokenSizesName": "Token Sizes to not provide cover",
+  "3/4CoverTokenSizes": "Token Sizes to provide 3/4 cover",
+  "noDeadTokenSizes": "Token Sizes to not provide cover when at 0hp",
+  "3/4DeadTokenSizes": "Token Sizes to provide 3/4 cover when at 0hp",
+  "fullDeadTokenSizes": "Token Sizes to provide full cover when at 0hp",
+
+  "CoverSizeHint": "Options: tiny, sm, med, lrg, huge, grg. Separate with ,"
+  
 }
