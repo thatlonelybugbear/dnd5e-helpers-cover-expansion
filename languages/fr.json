@@ -2,7 +2,8 @@
   "0coverTokenSizesName": "Tailles des jetons pour ne pas fournir de couverture",
   "3/4CoverTokenSizes": "Tailles de jetons pour fournir une couverture 3/4",
   "noDeadTokenSizes": "Tailles des jetons pour ne pas fournir de couverture à 0 PV",
+  "halfDeadTokenSizes" :"Token Sizes to provide 1/2 cover when at 0hp",
   "3/4DeadTokenSizes": "Tailles de jetons pour fournir 3/4 de couverture à 0 PV",
   "fullDeadTokenSizes": "Tailles de jetons pour fournir une couverture complète à 0 PV",
-  "CoverSizeHint": "Options : tiny, sm, med, lrg, huge, grg. Séparez par ,"
+  "CoverSizeHint": "Options : tiny, sm, med, lg, huge, grg. Séparez par ','; dont use spaces"
 }
