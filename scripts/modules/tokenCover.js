@@ -102,13 +102,14 @@ function setting(key) {
 
 Hooks.on("preUpdateActor", async (actor, update) => {
     let hp = getProperty(update, "data.attributes.hp.value");
-    if (!actor.token) return
+    let token = actor.token ?? actor.getActiveTokens()[0]
+    
     if (hp === 0) {
         let cover = tokenCover.coverValue(actor, "dead")
-        await actor.token.setFlag("dnd5e-helpers", "coverLevel", cover)
+        await token.document.setFlag("dnd5e-helpers", "coverLevel", cover)
     }
     if (actor.data.data.attributes.hp.value === 0 && hp > 0) {
         let cover = tokenCover.coverValue(actor, "cover")
-        await actor.token.setFlag("dnd5e-helpers", "coverLevel", cover)
+        await token.document.setFlag("dnd5e-helpers", "coverLevel", cover)
     }
 })
