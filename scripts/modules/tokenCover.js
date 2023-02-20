@@ -101,7 +101,7 @@ function setting(key) {
 }
 
 Hooks.on("preUpdateActor", async (actor, update) => {
-    if (!actor.token || !actor.getActiveTokens()[0]?.document) return;
+    if (!actor.token && !actor.getActiveTokens()[0]?.document) return;
     let hp = getProperty(update, "data.attributes.hp.value");
     let token = actor.token ?? actor.getActiveTokens()[0].document
     
@@ -116,7 +116,7 @@ Hooks.on("preUpdateActor", async (actor, update) => {
 })
 
 Hooks.on("preCreateActiveEffect", async (effect) => {
-    if (!effect.parent.parent || !effect.parent.getActiveTokens()[0]?.document) return;
+    if (!effect.parent.parent && !effect.parent.getActiveTokens()[0]?.document) return;
     let label = effect.data.label;
     let token = effect.parent.parent ?? effect.parent.getActiveTokens()[0].document;
     let actor = token.actor;
@@ -132,7 +132,7 @@ Hooks.on("preCreateActiveEffect", async (effect) => {
 });
 
 Hooks.on("preDeleteActiveEffect", async (effect) => {
-    if (!effect.parent.parent || !effect.parent.getActiveTokens()[0]?.document) return;
+    if (!effect.parent.parent && !effect.parent.getActiveTokens()[0]?.document) return;
     let label = effect.data.label;
     let token = effect.parent.parent ?? effect.parent.getActiveTokens()[0].document;
     let actor = token.actor;
